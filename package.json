@@ -7,7 +7,7 @@
     "start": "node app.js",
     "deploy": "node deploy.js",
     "testdata": "node lib/testdata.js",
-    "test": "ava",
+    "test": "cypress open",
     "dev": " pm2-dev start app.js",
     "lint": "eslint ./"
   },
@@ -38,6 +38,7 @@
     "cookie-parser": "^1.4.4",
     "countries-list": "^2.5.0",
     "csurf": "^1.11.0",
+    "cypress": "^12.15.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
